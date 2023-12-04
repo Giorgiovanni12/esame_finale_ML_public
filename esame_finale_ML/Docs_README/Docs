@@ -1,0 +1,44 @@
+Prima di iniziare installare le librerie :
+{pip install -r requirements.txt}
+
+Il progetto ha lo scopo di trasformare il dataset fornito,modificarlo e eseguire operazioni su di esso.
+
+STRUTTURA:
+▼
+└── esame_finale_ML
+    └── cartella_progetto
+        ├── cartella_classificazione
+        │   
+        ├── cartella_database
+        │   ├── db.py
+        │   ├── main.py
+        │   └── Shopping.sqlite
+        ├── cartella_statistiche
+
+        │   └── stat_api.py
+        └── Docs and Readme
+            ├── data.txt
+            ├── Docs
+            ├── README.txt
+            └── requirements.txt
+
+
+Nella cartella_database viene creato il database dal dataset di 
+partenza e viene aggiunta una colonna ID per facilitare la richiesta 
+delle operazioni CRUD e viene modificato nella tabella Frequency of Purchare
+il campo weekly in one week per non confondere i dati con biweekly.
+Inoltre vengono fornite alcune impostazioni quando viene creato il DB.
+Oltre al db.py e al DB è presente l'applicazione main.py dove vengono
+eseguite tutte le richieste al database con fastapi.
+
+All'interno di cartella_statistiche è presente l'applicazione 
+stat_api.py che ha lo scopo di fornire o dal DB o dal dataset
+con dati aggiornati anche dopo le modifiche su DB le statistiche richieste.
+
+Docs_README contiene la documentazione necessaria.
+Inoltre contiene le librerie da installare,la richiesta del progetto
+e una prova dei dati da inserire per la POST.
+
+
+
+

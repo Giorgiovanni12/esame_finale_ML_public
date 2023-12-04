@@ -1,0 +1,23 @@
+    ESEMPIO PROVA   
+
+data = {
+    'Costumer_ID': '123',
+    'Age': 25,
+    'Gender': 'Male',
+    'Item Purchased': 'Dress',
+    'Category': 'Clothing',
+    'Purchase Amount (USD)': 1200.50,
+    'Location': 'Cityville',
+    'Size': 'Medium',
+    'Color': 'Silver',
+    'Season': 'Summer',
+    'Review Rating': 4.5,
+    'Subscription Status': 'Active',
+    'Payment Method': 'Credit Card',
+    'Shipping Type': 'Express',
+    'Discount Applied': 0.1,
+    'Promo Code Used': 'SUMMER10',
+    'Previous Purchases': 5,
+    'Preferred Payment Method': 'Credit Card',
+    'Frequency of Purchases': 'Monthly'
+}

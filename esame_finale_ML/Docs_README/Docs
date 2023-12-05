@@ -1,9 +1,9 @@
-Prima di iniziare installare le librerie :
+Before starting install the libraries :
 {pip install -r requirements.txt}
 
-Il progetto ha lo scopo di trasformare il dataset fornito,modificarlo e eseguire operazioni su di esso.
+The purpose of the project is to transform the provided dataset,modify it and perform operations on it.
 
-STRUTTURA:
+STRUCTURE:
 ▼
 └── esame_finale_ML
     └── cartella_progetto
@@ -23,22 +23,18 @@ STRUTTURA:
             └── requirements.txt
 
 
-Nella cartella_database viene creato il database dal dataset di 
-partenza e viene aggiunta una colonna ID per facilitare la richiesta 
-delle operazioni CRUD e viene modificato nella tabella Frequency of Purchare
-il campo weekly in one week per non confondere i dati con biweekly.
-Inoltre vengono fornite alcune impostazioni quando viene creato il DB.
-Oltre al db.py e al DB è presente l'applicazione main.py dove vengono
-eseguite tutte le richieste al database con fastapi.
+In the_database folder, the database is created from the source dataset 
+source dataset and an ID column is added to facilitate the request 
+of CRUD operations and is changed in the Frequency of Purchare table
+the weekly field to one week so as not to confuse the data with biweekly.
+In addition, some settings are provided when the DB is created.
+In addition to the db.py and the DB there is the main.py application where all the
+execute all requests to the database with fastapi.
 
-All'interno di cartella_statistiche è presente l'applicazione 
-stat_api.py che ha lo scopo di fornire o dal DB o dal dataset
-con dati aggiornati anche dopo le modifiche su DB le statistiche richieste.
+Inside folder_statistics is the application 
+stat_api.py which is intended to provide either from the DB or the dataset
+with updated data even after changes on DB the requested statistics.
 
-Docs_README contiene la documentazione necessaria.
-Inoltre contiene le librerie da installare,la richiesta del progetto
-e una prova dei dati da inserire per la POST.
-
-
-
-
+Docs_README contains the required documentation.
+It also contains the libraries to be installed,the project request
+and a proof of the data to be entered for POST.
